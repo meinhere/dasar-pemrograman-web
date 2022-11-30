@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Quicksand, Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+main {
+  overflow: auto;
+  padding: 20px;
+}
+header {
+  display: inline;
+}
+h2,
+h3 {
+  color: #dc3535;
+}
+.jumbotron {
+  background-color: #dc3535;
+  color: #fff;
+  font-size: 20px;
+  padding: 60px;
+  text-align: center;
+}
+nav {
+  background-color: #f49d1a;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+nav a:hover {
+  font-weight: 700;
+}
+nav li {
+  position: relative;
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.featured-image {
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  border-radius: 10px;
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  padding: 20px;
+}
+#content {
+  float: left;
+  width: 75%;
+}
+#content p {
+  text-align: justify;
+}
+.profile header {
+  text-align: center;
+}
+.profile img {
+  width: 200px;
+  border-radius: 50%;
+}
+aside {
+  float: right;
+  padding-left: 20px;
+  width: 25%;
+}
+footer {
+  background-color: #dc3535;
+  color: #fff;
+  font-weight: 700;
+  padding: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    padding: 0;
+    width: 100%;
+  }
+}
